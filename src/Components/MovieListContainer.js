@@ -12,24 +12,24 @@ const MovieListContainer = () => {
   const [movies, setMovies] = useState([
     {
       id: 1,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgOjuqSccdDyuwW4F3qkyV7e9b4nONhCxnFQ&usqp=CAU",
-      title: "Ram-lela",
-      description: "Indian movie",
-      rating: 8,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUkdOgfDN97wvCTC0BwQzxGFJG6FX-0DF1vA&usqp=CAU",
+      title: "New York Film Academy",
+      description: " Latest American Movie",
+      rating: 10,
     },
     {
       id: 2,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEvHxmQcumuB7LdMIjVaC8VFly8o8A2LKUAg&usqp=CAU",
-      title: "Jungle cruise",
-      description: "Nice american movie",
-      rating: 7,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSneeWcVqMfMeHC0tLaVFfwcjAgPpRq6jaXYg&usqp=CAU",
+      title: "John Rambo",
+      description: "Hoolywood movie",
+      rating: 9,
     },
     {
       id: 3,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxAVmymiDsdcbDM50HBiC9wGkbZxc1PMmLQg&usqp=CAU",
-      title: "Oppenheimer",
-      description: "WW2",
-      rating: 9,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSneeWcVqMfMeHC0tLaVFfwcjAgPpRq6jaXYg&usqp=CAU",
+      title: "Mark and Vietnam",
+      description: "Vietnam War",
+      rating: 11,
     },
   ]);
   const [newMovie, setNewMovie] = useState({
